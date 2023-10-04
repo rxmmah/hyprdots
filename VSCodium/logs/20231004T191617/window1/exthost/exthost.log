@@ -1,0 +1,7 @@
+2023-10-04 19:16:19.866 [info] Extension host with pid 22853 started
+2023-10-04 19:16:19.989 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2023-10-04 19:16:20.192 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2023-10-04 19:16:20.266 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2023-10-04 19:16:20.299 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2023-10-04 19:16:20.325 [info] Extension host terminating: renderer closed the MessagePort
+2023-10-04 19:16:20.329 [info] Extension host with pid 22853 exiting with code 0
