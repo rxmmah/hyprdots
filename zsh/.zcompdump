@@ -1,4 +1,4 @@
-#files: 982	version: 5.9
+#files: 992	version: 5.9
 
 _comps=(
 '-' '_precommand'
@@ -86,6 +86,7 @@ _comps=(
 'basename' '_basename'
 'basenc' '_basenc'
 'bash' '_bash'
+'bat' '_bat'
 'batch' '_at'
 'baz' '_baz'
 'beep' '_beep'
@@ -236,8 +237,8 @@ _comps=(
 'cplay' '_cplay'
 'cppcheck' '_cppcheck'
 'cpupower' '_cpupower'
-'createdb' '_postgresql'
-'createuser' '_postgresql'
+'createdb' '_pgsql_utils'
+'createuser' '_pgsql_utils'
 'crontab' '_crontab'
 'crsh' '_cssh'
 'cryptsetup' '_cryptsetup'
@@ -305,8 +306,8 @@ _comps=(
 'dos2unix' '_dos2unix'
 'drill' '_drill'
 'dropbox' '_dropbox'
-'dropdb' '_postgresql'
-'dropuser' '_postgresql'
+'dropdb' '_pgsql_utils'
+'dropuser' '_pgsql_utils'
 'drush' '_drush'
 'dsh' '_dsh'
 'dtruss' '_dtruss'
@@ -417,6 +418,7 @@ _comps=(
 'fmttest' '_mh'
 'fned' '_zed'
 'fnext' '_mh'
+'fnm' '_fnm'
 'fold' '_fold'
 'folder' '_mh'
 'folders' '_mh'
@@ -511,6 +513,7 @@ _comps=(
 'gln' '_ln'
 'global' '_global'
 'glocate' '_locate'
+'glow' '_glow'
 'gls' '_ls'
 'gm' '_graphicsmagick'
 'gmake' '_make'
@@ -651,6 +654,7 @@ _comps=(
 'hello' '_hello'
 'help' '_sccs'
 'hexdump' '_hexdump'
+'highlight' '_highlight'
 'hilite' '_precommand'
 'histed' '_zed'
 'history' '_fc'
@@ -663,6 +667,7 @@ _comps=(
 'htop' '_htop'
 'http' '_httpie'
 'https' '_httpie'
+'hyprshade' '_hyprshade'
 'ibus' '_ibus'
 'iceweasel' '_mozilla'
 'icombine' '_ispell'
@@ -682,7 +687,7 @@ _comps=(
 'info' '_texinfo'
 'infocmp' '_terminals'
 'initctl' '_initctl'
-'initdb' '_postgresql'
+'initdb' '_pgsql_utils'
 'insmod' '_modutils'
 'install' '_install'
 'install-info' '_texinfo'
@@ -964,6 +969,7 @@ _comps=(
 'node' '_node'
 'noglob' '_precommand'
 'nohup' '_precommand'
+'notmuch' '_notmuch'
 'nova' '_openstack'
 'npm' '_npm'
 'ns' '_hosts'
@@ -1018,10 +1024,12 @@ _comps=(
 'parec' '_pulseaudio'
 'parecord' '_pulseaudio'
 'paru' '_paru'
+'pass' '_pass'
 'passwd' '_users'
 'paste' '_paste'
 'pasuspender' '_pulseaudio'
 'patch' '_patch'
+'patchelf' '_patchelf'
 'patool' '_patool'
 'pax' '_pax'
 'pcat' '_pack'
@@ -1050,11 +1058,11 @@ _comps=(
 'pflags' '_pids'
 'pg_config' '_postgresql'
 'pg_ctl' '_postgresql'
-'pg_dump' '_postgresql'
-'pg_dumpall' '_postgresql'
+'pg_dump' '_pgsql_utils'
+'pg_dumpall' '_pgsql_utils'
 'pg_isready' '_postgresql'
 'pgrep' '_pgrep'
-'pg_restore' '_postgresql'
+'pg_restore' '_pgsql_utils'
 'pg_upgrade' '_postgresql'
 'phing' '_phing'
 'php' '_php'
@@ -1130,7 +1138,7 @@ _comps=(
 'psmerge' '_psutils'
 'psmulti' '_postscript'
 'psnup' '_psutils'
-'psql' '_postgresql'
+'psql' '_pgsql_utils'
 'psresize' '_psutils'
 'psselect' '_psutils'
 'pstack' '_pids'
@@ -1368,8 +1376,9 @@ _comps=(
 'svnliteadmin' '_subversion'
 'swaks' '_swaks'
 'swanctl' '_swanctl'
-'swayimg' '_swayimg'
 'swaylock' '_swaylock'
+'swaync' '_swaync'
+'swaync-client' '_swaync-client'
 'swift' '_swift'
 'swiftc' '_swift'
 'swww' '_swww'
@@ -1468,7 +1477,7 @@ _comps=(
 'type' '_which'
 'typeset' '_typeset'
 'udevadm' '_udevadm'
-'udisksctl' '_udisks2'
+'udisksctl' '_udisksctl'
 'ufw' '_ufw'
 'ulimit' '_ulimit'
 'uml_mconsole' '_uml'
@@ -1508,10 +1517,11 @@ _comps=(
 'urxvt256c-ml' '_urxvt'
 'urxvt256c-mlc' '_urxvt'
 'urxvtc' '_urxvt'
+'usbguard' '_usbguard'
 'useradd' '_user_admin'
 'userdel' '_users'
 'usermod' '_user_admin'
-'vacuumdb' '_postgresql'
+'vacuumdb' '_pgsql_utils'
 'val' '_sccs'
 'valgrind' '_valgrind'
 '-value-' '_value'
@@ -1795,6 +1805,7 @@ _services=(
 
 _patcomps=(
 '*/(init|rc[0-9S]#).d/*' '_init_d'
+'notmuch-*' '_notmuch'
 )
 
 _postpatcomps=(
@@ -1893,19 +1904,21 @@ autoload -Uz _afew _android _archlinux-java _artisan _atach \
             _thor _tmuxinator _tmuxp _tox _tsc \
             _ts-node _udisksctl _ufw _virtualbox _vnstat \
             _wemux _wg-quick _xsel _yarn _zcash-cli \
-            _zinit _bluetoothctl _bootctl _busctl _calibre \
-            _cargo _checkupdates _codium _coredumpctl _curl \
-            _docker _dolphin _eza _hostnamectl _journalctl \
-            _kernel-install _lf _libinput _localectl _loginctl \
-            _machinectl _meson _mkinitcpio _mpv _networkctl \
-            _ninja _oomctl _paccache _pacdiff _paclist \
-            _paclog-pkglist _pacman _pacscripts _pacsearch _pacsort \
-            _pactree _paru _playerctl _pulseaudio _rankmirrors \
-            _resolvectl _sd_hosts_or_user_at_host _sd_machines _sd_outputmodes _sd_unit_files \
-            _starship _swayimg _swaylock _swww _systemctl \
-            _systemd _systemd-analyze _systemd-delta _systemd-inhibit _systemd-nspawn \
-            _systemd-path _systemd-run _systemd-tmpfiles _timedatectl _udevadm \
-            _udisks2 _updpkgsums _wl-copy _wlogout _wl-paste \
+            _zinit _bat _bluetoothctl _bootctl _busctl \
+            _calibre _cargo _checkupdates _codium _coredumpctl \
+            _curl _docker _dolphin _email-notmuch _eza \
+            _fnm _glow _highlight _hostnamectl _hyprshade \
+            _journalctl _kernel-install _lf _libinput _localectl \
+            _loginctl _machinectl _meson _mkinitcpio _mpv \
+            _networkctl _ninja _notmuch _oomctl _paccache \
+            _pacdiff _paclist _paclog-pkglist _pacman _pacscripts \
+            _pacsearch _pacsort _pactree _paru _pass \
+            _patchelf _playerctl _pulseaudio _rankmirrors _resolvectl \
+            _sd_hosts_or_user_at_host _sd_machines _sd_outputmodes _sd_unit_files _swaylock \
+            _swaync _swaync-client _swww _systemctl _systemd \
+            _systemd-analyze _systemd-delta _systemd-inhibit _systemd-nspawn _systemd-path \
+            _systemd-run _systemd-tmpfiles _timedatectl _udevadm _udisks2 \
+            _updpkgsums _usbguard _wl-copy _wlogout _wl-paste \
             _yt-dlp _zathura _cdr _all_labels _all_matches \
             _alternative _approximate _arg_compile _arguments _bash_completions \
             _cache_invalid _call_function _combination _complete _complete_debug \

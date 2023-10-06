@@ -1,0 +1,143 @@
+2023-10-05 11:59:45.683 [info] Started initializing default profile extensions in extensions installation folder. file:///home/kira/.vscode-oss/extensions
+2023-10-05 11:59:45.840 [warning] Failed to create default profile extensions manifest in extensions installation folder. file:///home/kira/.vscode-oss/extensions Unable to create file 'vscode-userdata:/home/kira/.vscode-oss/extensions/extensions.json' that already exists when overwrite flag is not set
+2023-10-05 11:59:45.841 [info] Completed initializing default profile extensions in extensions installation folder. file:///home/kira/.vscode-oss/extensions
+2023-10-05 12:00:02.745 [info] Getting Manifest... ms-python.python
+2023-10-05 12:00:02.873 [info] Installing extension: ms-python.python
+2023-10-05 12:00:03.211 [info] Extension signature verification is not done: ms-python.python
+2023-10-05 12:00:03.972 [info] Extracted extension to file:///home/kira/.vscode-oss/extensions/ms-python.python-2023.16.0-universal: ms-python.python
+2023-10-05 12:00:03.977 [info] Renamed to /home/kira/.vscode-oss/extensions/ms-python.python-2023.16.0-universal
+2023-10-05 12:00:03.980 [info] Extracting extension completed. ms-python.python
+2023-10-05 12:00:03.987 [info] Extension installed successfully: ms-python.python
+2023-10-05 12:00:04.064 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/kira/.vscode-oss/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/kira/.vscode-oss/extensions/extensions.json.vsctmp'
+    at s.create (/opt/vscodium-bin/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:51:36019)
+    at i (/opt/vscodium-bin/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:51:36159)
+    at t.toFileSystemProviderError (/opt/vscodium-bin/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:47093)
+    at t.stat (/opt/vscodium-bin/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:37859)
+    at async p.stat (/opt/vscodium-bin/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:20678)
+    at async K.onDidFilesChange (/opt/vscodium-bin/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:109:12660)
+2023-10-05 12:00:04.389 [info] Getting Manifest... ms-toolsai.jupyter
+2023-10-05 12:00:04.520 [info] Installing extension: ms-toolsai.jupyter
+2023-10-05 12:00:04.679 [info] Getting Manifest... ms-toolsai.jupyter-renderers
+2023-10-05 12:00:04.796 [info] Getting Manifest... ms-toolsai.jupyter-keymap
+2023-10-05 12:00:05.038 [info] Getting Manifest... ms-toolsai.vscode-jupyter-cell-tags
+2023-10-05 12:00:05.158 [info] Getting Manifest... ms-toolsai.vscode-jupyter-slideshow
+2023-10-05 12:00:05.317 [info] Installing extension: ms-toolsai.jupyter-renderers ms-toolsai.jupyter
+2023-10-05 12:00:05.317 [info] Installing extension: ms-toolsai.jupyter-keymap ms-toolsai.jupyter
+2023-10-05 12:00:05.317 [info] Installing extension: ms-toolsai.vscode-jupyter-cell-tags ms-toolsai.jupyter
+2023-10-05 12:00:05.317 [info] Installing extension: ms-toolsai.vscode-jupyter-slideshow ms-toolsai.jupyter
+2023-10-05 12:00:05.545 [info] Extension signature verification is not done: ms-toolsai.jupyter-renderers
+2023-10-05 12:00:05.547 [info] Extension signature verification is not done: ms-toolsai.jupyter-keymap
+2023-10-05 12:00:05.551 [info] Extension signature verification is not done: ms-toolsai.vscode-jupyter-cell-tags
+2023-10-05 12:00:05.558 [info] Extracted extension to file:///home/kira/.vscode-oss/extensions/ms-toolsai.jupyter-keymap-1.1.2-universal: ms-toolsai.jupyter-keymap
+2023-10-05 12:00:05.560 [info] Renamed to /home/kira/.vscode-oss/extensions/ms-toolsai.jupyter-keymap-1.1.2-universal
+2023-10-05 12:00:05.562 [info] Extracting extension completed. ms-toolsai.jupyter-keymap
+2023-10-05 12:00:05.572 [info] Extension signature verification is not done: ms-toolsai.vscode-jupyter-slideshow
+2023-10-05 12:00:05.581 [info] Extracted extension to file:///home/kira/.vscode-oss/extensions/ms-toolsai.vscode-jupyter-cell-tags-0.1.8-universal: ms-toolsai.vscode-jupyter-cell-tags
+2023-10-05 12:00:05.584 [info] Renamed to /home/kira/.vscode-oss/extensions/ms-toolsai.vscode-jupyter-cell-tags-0.1.8-universal
+2023-10-05 12:00:05.585 [info] Extracting extension completed. ms-toolsai.vscode-jupyter-cell-tags
+2023-10-05 12:00:05.592 [info] Extracted extension to file:///home/kira/.vscode-oss/extensions/ms-toolsai.vscode-jupyter-slideshow-0.1.5-universal: ms-toolsai.vscode-jupyter-slideshow
+2023-10-05 12:00:05.594 [info] Renamed to /home/kira/.vscode-oss/extensions/ms-toolsai.vscode-jupyter-slideshow-0.1.5-universal
+2023-10-05 12:00:05.595 [info] Extracting extension completed. ms-toolsai.vscode-jupyter-slideshow
+2023-10-05 12:00:05.640 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/kira/.vscode-oss/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/kira/.vscode-oss/extensions/extensions.json.vsctmp'
+    at s.create (/opt/vscodium-bin/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:51:36019)
+    at i (/opt/vscodium-bin/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:51:36159)
+    at t.toFileSystemProviderError (/opt/vscodium-bin/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:47093)
+    at t.stat (/opt/vscodium-bin/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:37859)
+    at async p.stat (/opt/vscodium-bin/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:20678)
+    at async K.onDidFilesChange (/opt/vscodium-bin/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:109:12660)
+2023-10-05 12:00:05.774 [info] Extracted extension to file:///home/kira/.vscode-oss/extensions/ms-toolsai.jupyter-renderers-1.0.17-universal: ms-toolsai.jupyter-renderers
+2023-10-05 12:00:05.778 [info] Renamed to /home/kira/.vscode-oss/extensions/ms-toolsai.jupyter-renderers-1.0.17-universal
+2023-10-05 12:00:05.780 [info] Extracting extension completed. ms-toolsai.jupyter-renderers
+2023-10-05 12:00:05.861 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/kira/.vscode-oss/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/kira/.vscode-oss/extensions/extensions.json.vsctmp'
+    at s.create (/opt/vscodium-bin/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:51:36019)
+    at i (/opt/vscodium-bin/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:51:36159)
+    at t.toFileSystemProviderError (/opt/vscodium-bin/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:47093)
+    at t.stat (/opt/vscodium-bin/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:37859)
+    at async p.stat (/opt/vscodium-bin/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:20678)
+    at async K.onDidFilesChange (/opt/vscodium-bin/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:109:12660)
+2023-10-05 12:00:07.479 [info] Extension signature verification is not done: ms-toolsai.jupyter
+2023-10-05 12:00:07.720 [info] Extracted extension to file:///home/kira/.vscode-oss/extensions/ms-toolsai.jupyter-2023.9.100-universal: ms-toolsai.jupyter
+2023-10-05 12:00:07.725 [info] Renamed to /home/kira/.vscode-oss/extensions/ms-toolsai.jupyter-2023.9.100-universal
+2023-10-05 12:00:07.729 [info] Extracting extension completed. ms-toolsai.jupyter
+2023-10-05 12:00:07.736 [info] Extension installed successfully: ms-toolsai.jupyter-keymap
+2023-10-05 12:00:07.736 [info] Extension installed successfully: ms-toolsai.vscode-jupyter-cell-tags
+2023-10-05 12:00:07.736 [info] Extension installed successfully: ms-toolsai.vscode-jupyter-slideshow
+2023-10-05 12:00:07.736 [info] Extension installed successfully: ms-toolsai.jupyter-renderers
+2023-10-05 12:00:07.737 [info] Extension installed successfully: ms-toolsai.jupyter
+2023-10-05 12:00:07.808 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/kira/.vscode-oss/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/kira/.vscode-oss/extensions/extensions.json.vsctmp'
+    at s.create (/opt/vscodium-bin/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:51:36019)
+    at i (/opt/vscodium-bin/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:51:36159)
+    at t.toFileSystemProviderError (/opt/vscodium-bin/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:47093)
+    at t.stat (/opt/vscodium-bin/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:37859)
+    at async p.stat (/opt/vscodium-bin/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:20678)
+    at async K.onDidFilesChange (/opt/vscodium-bin/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:109:12660)
+2023-10-05 12:00:12.295 [info] Getting Manifest... eamodio.gitlens
+2023-10-05 12:00:12.439 [info] Installing extension: eamodio.gitlens
+2023-10-05 12:00:12.635 [info] Extension signature verification is not done: eamodio.gitlens
+2023-10-05 12:00:12.809 [info] Extracted extension to file:///home/kira/.vscode-oss/extensions/eamodio.gitlens-14.3.0-universal: eamodio.gitlens
+2023-10-05 12:00:12.816 [info] Renamed to /home/kira/.vscode-oss/extensions/eamodio.gitlens-14.3.0-universal
+2023-10-05 12:00:12.819 [info] Extracting extension completed. eamodio.gitlens
+2023-10-05 12:00:12.828 [info] Extension installed successfully: eamodio.gitlens
+2023-10-05 12:00:12.899 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/kira/.vscode-oss/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/kira/.vscode-oss/extensions/extensions.json.vsctmp'
+    at s.create (/opt/vscodium-bin/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:51:36019)
+    at i (/opt/vscodium-bin/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:51:36159)
+    at t.toFileSystemProviderError (/opt/vscodium-bin/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:47093)
+    at t.stat (/opt/vscodium-bin/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:37859)
+    at async p.stat (/opt/vscodium-bin/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:20678)
+    at async K.onDidFilesChange (/opt/vscodium-bin/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:109:12660)
+2023-10-05 12:00:16.476 [info] Getting Manifest... ms-azuretools.vscode-docker
+2023-10-05 12:00:16.816 [info] Installing extension: ms-azuretools.vscode-docker
+2023-10-05 12:00:17.212 [info] Extension signature verification is not done: ms-azuretools.vscode-docker
+2023-10-05 12:00:17.249 [info] Extracted extension to file:///home/kira/.vscode-oss/extensions/ms-azuretools.vscode-docker-1.26.1-universal: ms-azuretools.vscode-docker
+2023-10-05 12:00:17.251 [info] Renamed to /home/kira/.vscode-oss/extensions/ms-azuretools.vscode-docker-1.26.1-universal
+2023-10-05 12:00:17.253 [info] Extracting extension completed. ms-azuretools.vscode-docker
+2023-10-05 12:00:17.259 [info] Extension installed successfully: ms-azuretools.vscode-docker
+2023-10-05 12:00:17.332 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/kira/.vscode-oss/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/kira/.vscode-oss/extensions/extensions.json.vsctmp'
+    at s.create (/opt/vscodium-bin/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:51:36019)
+    at i (/opt/vscodium-bin/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:51:36159)
+    at t.toFileSystemProviderError (/opt/vscodium-bin/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:47093)
+    at t.stat (/opt/vscodium-bin/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:37859)
+    at async p.stat (/opt/vscodium-bin/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:20678)
+    at async K.onDidFilesChange (/opt/vscodium-bin/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:109:12660)
+2023-10-05 12:00:23.134 [info] Getting Manifest... pkief.material-icon-theme
+2023-10-05 12:00:23.258 [info] Installing extension: pkief.material-icon-theme
+2023-10-05 12:00:23.485 [info] Extension signature verification is not done: pkief.material-icon-theme
+2023-10-05 12:00:23.717 [info] Extracted extension to file:///home/kira/.vscode-oss/extensions/pkief.material-icon-theme-4.30.1-universal: pkief.material-icon-theme
+2023-10-05 12:00:23.720 [info] Renamed to /home/kira/.vscode-oss/extensions/pkief.material-icon-theme-4.30.1-universal
+2023-10-05 12:00:23.722 [info] Extracting extension completed. pkief.material-icon-theme
+2023-10-05 12:00:23.726 [info] Extension installed successfully: pkief.material-icon-theme
+2023-10-05 12:00:23.801 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/kira/.vscode-oss/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/kira/.vscode-oss/extensions/extensions.json.vsctmp'
+    at s.create (/opt/vscodium-bin/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:51:36019)
+    at i (/opt/vscodium-bin/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:51:36159)
+    at t.toFileSystemProviderError (/opt/vscodium-bin/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:47093)
+    at t.stat (/opt/vscodium-bin/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:37859)
+    at async p.stat (/opt/vscodium-bin/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:20678)
+    at async K.onDidFilesChange (/opt/vscodium-bin/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:109:12660)
+2023-10-05 12:00:40.661 [info] Getting Manifest... cweijan.vscode-mysql-client2
+2023-10-05 12:00:40.781 [info] Installing extension: cweijan.vscode-mysql-client2
+2023-10-05 12:00:41.068 [info] Extension signature verification is not done: cweijan.vscode-mysql-client2
+2023-10-05 12:00:41.202 [info] Extracted extension to file:///home/kira/.vscode-oss/extensions/cweijan.vscode-mysql-client2-6.7.4-universal: cweijan.vscode-mysql-client2
+2023-10-05 12:00:41.205 [info] Renamed to /home/kira/.vscode-oss/extensions/cweijan.vscode-mysql-client2-6.7.4-universal
+2023-10-05 12:00:41.207 [info] Extracting extension completed. cweijan.vscode-mysql-client2
+2023-10-05 12:00:41.212 [info] Extension installed successfully: cweijan.vscode-mysql-client2
+2023-10-05 12:00:41.249 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/kira/.vscode-oss/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/kira/.vscode-oss/extensions/extensions.json.vsctmp'
+    at s.create (/opt/vscodium-bin/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:51:36019)
+    at i (/opt/vscodium-bin/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:51:36159)
+    at t.toFileSystemProviderError (/opt/vscodium-bin/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:47093)
+    at t.stat (/opt/vscodium-bin/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:37859)
+    at async p.stat (/opt/vscodium-bin/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:20678)
+    at async K.onDidFilesChange (/opt/vscodium-bin/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:109:12660)
+2023-10-05 12:01:15.152 [info] Getting Manifest... catppuccin.catppuccin-vsc
+2023-10-05 12:01:15.501 [info] Installing extension: catppuccin.catppuccin-vsc
+2023-10-05 12:01:15.771 [info] Extension signature verification is not done: catppuccin.catppuccin-vsc
+2023-10-05 12:01:15.781 [info] Extracted extension to file:///home/kira/.vscode-oss/extensions/catppuccin.catppuccin-vsc-3.3.0-universal: catppuccin.catppuccin-vsc
+2023-10-05 12:01:15.783 [info] Renamed to /home/kira/.vscode-oss/extensions/catppuccin.catppuccin-vsc-3.3.0-universal
+2023-10-05 12:01:15.784 [info] Extracting extension completed. catppuccin.catppuccin-vsc
+2023-10-05 12:01:15.789 [info] Extension installed successfully: catppuccin.catppuccin-vsc
+2023-10-05 12:01:15.862 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/kira/.vscode-oss/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/kira/.vscode-oss/extensions/extensions.json.vsctmp'
+    at s.create (/opt/vscodium-bin/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:51:36019)
+    at i (/opt/vscodium-bin/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:51:36159)
+    at t.toFileSystemProviderError (/opt/vscodium-bin/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:47093)
+    at t.stat (/opt/vscodium-bin/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:37859)
+    at async p.stat (/opt/vscodium-bin/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:20678)
+    at async K.onDidFilesChange (/opt/vscodium-bin/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:109:12660)

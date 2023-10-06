@@ -1,0 +1,8 @@
+{
+    "window.titleBarStyle": "custom",
+    "workbench.colorTheme": "Catppuccin Mocha",
+    "extensions.experimental.affinity": {
+        "asvetliakov.vscode-neovim": 1
+    },
+    "workbench.iconTheme": "material-icon-theme"
+}

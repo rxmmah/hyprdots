@@ -3,7 +3,7 @@
     "profileAssociations": {
         "workspaces": {},
         "emptyWindows": {
-            "1696439742846": "__default__profile__"
+            "1696501810508": "__default__profile__"
         }
     },
     "profileAssociationsMigration": true,
@@ -13,19 +13,19 @@
         "folders": [],
         "emptyWindows": [
             {
-                "backupFolder": "1696439742846"
+                "backupFolder": "1696501810508"
             }
         ]
     },
     "windowsState": {
         "lastActiveWindow": {
-            "backupPath": "/home/kira/.config/VSCodium/Backups/1696439742846",
+            "backupPath": "/home/kira/.config/VSCodium/Backups/1696501810508",
             "uiState": {
                 "mode": 1,
-                "x": 645,
-                "y": 10,
-                "width": 625,
-                "height": 329
+                "x": 0,
+                "y": 0,
+                "width": 1276,
+                "height": 1404
             }
         },
         "openedWindows": []

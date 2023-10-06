@@ -1,0 +1,14 @@
+2023-10-05 12:30:48.448 [info] Getting Manifest... asvetliakov.vscode-neovim
+2023-10-05 12:30:48.816 [info] Installing extension: asvetliakov.vscode-neovim
+2023-10-05 12:30:50.265 [info] Extension signature verification is not done: asvetliakov.vscode-neovim
+2023-10-05 12:30:50.319 [info] Extracted extension to file:///home/kira/.vscode-oss/extensions/asvetliakov.vscode-neovim-0.7.0-universal: asvetliakov.vscode-neovim
+2023-10-05 12:30:50.323 [info] Renamed to /home/kira/.vscode-oss/extensions/asvetliakov.vscode-neovim-0.7.0-universal
+2023-10-05 12:30:50.325 [info] Extracting extension completed. asvetliakov.vscode-neovim
+2023-10-05 12:30:50.331 [info] Extension installed successfully: asvetliakov.vscode-neovim
+2023-10-05 12:30:50.411 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/kira/.vscode-oss/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/kira/.vscode-oss/extensions/extensions.json.vsctmp'
+    at s.create (/opt/vscodium-bin/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:51:36019)
+    at i (/opt/vscodium-bin/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:51:36159)
+    at t.toFileSystemProviderError (/opt/vscodium-bin/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:47093)
+    at t.stat (/opt/vscodium-bin/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:37859)
+    at async p.stat (/opt/vscodium-bin/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:20678)
+    at async K.onDidFilesChange (/opt/vscodium-bin/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:109:12660)

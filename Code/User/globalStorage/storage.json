@@ -3,7 +3,8 @@
     "profileAssociations": {
         "workspaces": {},
         "emptyWindows": {
-            "1696409296529": "__default__profile__"
+            "1696409296529": "__default__profile__",
+            "1696497721471": "__default__profile__"
         }
     },
     "profileAssociationsMigration": true,
@@ -13,7 +14,7 @@
         "folders": [],
         "emptyWindows": [
             {
-                "backupFolder": "1696409296529"
+                "backupFolder": "1696497721471"
             }
         ]
     },
@@ -57,6 +58,20 @@
                                     "id": "workbench.action.reopenClosedEditor",
                                     "label": "&&Reopen Closed Editor",
                                     "enabled": false
+                                },
+                                {
+                                    "id": "vscode.menubar.separator"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/kira/.config/kitty/kitty.conf",
+                                        "path": "/home/kira/.config/kitty/kitty.conf",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/.config/kitty/kitty.conf"
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
@@ -181,13 +196,6 @@
                                     }
                                 },
                                 {
-                                    "id": "workbench.userDataSync.actions.turnOn",
-                                    "label": "Turn on Settings Sync..."
-                                },
-                                {
-                                    "id": "vscode.menubar.separator"
-                                },
-                                {
                                     "id": "workbench.action.openSettings",
                                     "label": "&&Settings"
                                 },
@@ -233,6 +241,13 @@
                                 {
                                     "id": "settings.filterByOnline",
                                     "label": "&&Online Services Settings"
+                                },
+                                {
+                                    "id": "vscode.menubar.separator"
+                                },
+                                {
+                                    "id": "workbench.userDataSync.actions.turnOn",
+                                    "label": "Backup and Sync Settings..."
                                 }
                             ]
                         }
@@ -437,8 +452,7 @@
                                 },
                                 {
                                     "id": "workbench.action.toggleMenuBar",
-                                    "label": "Menu &&Bar",
-                                    "checked": true
+                                    "label": "Menu &&Bar"
                                 },
                                 {
                                     "id": "workbench.action.toggleSidebarVisibility",
@@ -450,8 +464,7 @@
                                 },
                                 {
                                     "id": "workbench.action.toggleStatusbarVisibility",
-                                    "label": "S&&tatus Bar",
-                                    "checked": true
+                                    "label": "S&&tatus Bar"
                                 },
                                 {
                                     "id": "workbench.action.toggleActivityBarVisibility",
@@ -682,8 +695,7 @@
                 "items": [
                     {
                         "id": "workbench.action.navigateBack",
-                        "label": "&&Back",
-                        "enabled": false
+                        "label": "&&Back"
                     },
                     {
                         "id": "workbench.action.navigateForward",
@@ -1573,19 +1585,20 @@
         }
     },
     "theme": "vs-dark",
-    "themeBackground": "#1f1f1f",
+    "themeBackground": "#1e1e2e",
     "windowSplash": {
         "zoomLevel": 0,
         "baseTheme": "vs-dark",
         "colorInfo": {
-            "foreground": "#cccccc",
-            "background": "#1f1f1f",
-            "editorBackground": "#1f1f1f",
-            "titleBarBackground": "#181818",
-            "activityBarBackground": "#181818",
-            "sideBarBackground": "#181818",
-            "statusBarBackground": "#181818",
-            "statusBarNoFolderBackground": "#1f1f1f"
+            "foreground": "#cdd6f4",
+            "background": "#1e1e2e",
+            "editorBackground": "#1e1e2e",
+            "titleBarBackground": "#11111b",
+            "activityBarBackground": "#11111b",
+            "sideBarBackground": "#181825",
+            "statusBarBackground": "#11111b",
+            "statusBarNoFolderBackground": "#11111b",
+            "windowBorder": "rgba(0, 0, 0, 0)"
         },
         "layoutInfo": {
             "sideBarSide": "left",
@@ -1593,19 +1606,19 @@
             "titleBarHeight": 0,
             "activityBarWidth": 48,
             "sideBarWidth": 0,
-            "statusBarHeight": 22,
+            "statusBarHeight": 0,
             "windowBorder": false
         }
     },
     "windowsState": {
         "lastActiveWindow": {
-            "backupPath": "/home/kira/.config/Code/Backups/1696409296529",
+            "backupPath": "/home/kira/.config/Code/Backups/1696497721471",
             "uiState": {
                 "mode": 1,
-                "x": 1290,
-                "y": 709,
-                "width": 1265,
-                "height": 689
+                "x": 965,
+                "y": 10,
+                "width": 305,
+                "height": 329
             }
         },
         "openedWindows": []

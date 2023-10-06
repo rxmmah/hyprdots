@@ -1,0 +1,21 @@
+{
+  "disabled_plugins": {
+    "__class__": "set",
+    "__value__": []
+  },
+  "enabled_plugins": {
+    "__class__": "set",
+    "__value__": []
+  },
+  "filetype_mapping": {},
+  "plugin_customization": {},
+  "plugins": {
+    "Goodreads": "/home/kira/.config/calibre/plugins/Goodreads.zip",
+    "Goodreads Sync": "/home/kira/.config/calibre/plugins/Goodreads Sync.zip",
+    "KFX Input": "/home/kira/.config/calibre/plugins/KFX Input.zip",
+    "KFX Output": "/home/kira/.config/calibre/plugins/KFX Output.zip",
+    "Kindle hi-res covers": "/home/kira/.config/calibre/plugins/Kindle hi-res covers.zip",
+    "Reading Goal": "/home/kira/.config/calibre/plugins/Reading Goal.zip",
+    "WordDumb": "/home/kira/.config/calibre/plugins/WordDumb.zip"
+  }
+}
